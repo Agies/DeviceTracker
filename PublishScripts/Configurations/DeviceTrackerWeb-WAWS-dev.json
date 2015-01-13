@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "DeviceTrackerWeb",
+            "location": "East US"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "DeviceTrackerWeb_db",
+                "serverName": "",
+                "user": "yoda",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US"
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceTracker.Common", "DeviceTracker.Common\DeviceTracker.Common.csproj", "{192A92F7-0306-43A4-A93C-483FB4B75807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceTracker.Service", "DeviceTracker.Service\DeviceTracker.Service.csproj", "{3053126E-7CDD-475E-A3C6-FC45B6DE78C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceTracker.Web", "DeviceTracker.Web\DeviceTracker.Web.csproj", "{2E47E45D-66B8-41C7-8EA5-C18394E1875D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{577EEDB0-FF4F-49A0-B38D-36A0A69FBF37}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C90ADE5D-E821-4506-9BBB-4E6EB1EAAE5B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\DeviceTrackerWeb-WAWS-dev.json = PublishScripts\Configurations\DeviceTrackerWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{965375E8-2B7D-4400-A1A2-345E5BDC51A8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192A92F7-0306-43A4-A93C-483FB4B75807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A92F7-0306-43A4-A93C-483FB4B75807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A92F7-0306-43A4-A93C-483FB4B75807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A92F7-0306-43A4-A93C-483FB4B75807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3053126E-7CDD-475E-A3C6-FC45B6DE78C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3053126E-7CDD-475E-A3C6-FC45B6DE78C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3053126E-7CDD-475E-A3C6-FC45B6DE78C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3053126E-7CDD-475E-A3C6-FC45B6DE78C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E47E45D-66B8-41C7-8EA5-C18394E1875D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E47E45D-66B8-41C7-8EA5-C18394E1875D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E47E45D-66B8-41C7-8EA5-C18394E1875D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E47E45D-66B8-41C7-8EA5-C18394E1875D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90ADE5D-E821-4506-9BBB-4E6EB1EAAE5B} = {577EEDB0-FF4F-49A0-B38D-36A0A69FBF37}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DeviceTracker.Service.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mobileUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://devicetracker.azure-mobile.net/</Value>
+    </Setting>
+    <Setting Name="mobileAppKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pkbGrxcHecijXkojbLQYAhXflPbGPh54</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
