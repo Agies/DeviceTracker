@@ -35,7 +35,8 @@ namespace DeviceTracker.Service
         private void InitializeGps()
         {
             _watcher = new GeoCoordinateWatcher(GeoPositionAccuracy.High);
-            _watcher.MovementThreshold = 1.0;
+            //TODO: Make configurable
+            //_watcher.MovementThreshold = 1.0;
             _watcher.PositionChanged += OnPositionChanged;
             _watcher.StatusChanged += OnStatusChanged;
         }
