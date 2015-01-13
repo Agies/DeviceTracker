@@ -123,7 +123,7 @@ publish/
 *.azurePubxml
 
 # NuGet Packages Directory
-*/packages/*
+*packages/*
 ## TODO: If the tool you use requires repositories.config uncomment the next line
 !DeviceTracker/packages/repositories.config
 
