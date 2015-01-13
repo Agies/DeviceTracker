@@ -53,6 +53,7 @@ namespace DeviceTracker.Service
             _gpsTable = _client.GetSyncTable<GPSItem>();
             await _gpsTable.InsertAsync(new GPSItem());
             await SyncAsync();
+            //await _gpsTable.PurgeAsync();
         }
 
         private void OnStatusChanged(object sender, GeoPositionStatusChangedEventArgs e)
@@ -118,7 +119,7 @@ namespace DeviceTracker.Service
 
         public void Shutdown()
         {
-            
+            _watcher.Dispose();
         }
 
         public async Task Initialize()
