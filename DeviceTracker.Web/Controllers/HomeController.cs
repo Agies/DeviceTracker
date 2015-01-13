@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace DeviceTracker.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         public ActionResult Index()
         {
@@ -16,13 +16,6 @@ namespace DeviceTracker.Web.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
 
             return View();
         }

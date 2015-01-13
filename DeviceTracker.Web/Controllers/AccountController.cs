@@ -1,7 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -12,8 +9,7 @@ using DeviceTracker.Web.Models;
 
 namespace DeviceTracker.Web.Controllers
 {
-    [Authorize]
-    public class AccountController : Controller
+    public class AccountController : ControllerBase
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
